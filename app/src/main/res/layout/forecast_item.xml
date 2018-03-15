@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imgviiew_icon_forecastitem"
+        android:layout_width="60dp"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </LinearLayout> />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_day_forecastitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Monday"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+
+           />
+
+        <TextView
+            android:id="@+id/tv_main_forecastitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Clear"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|right"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp">
+
+
+            <TextView
+                android:id="@+id/tv_maxtemp_forecastitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                tools:text="50 °C"
+                />
+
+
+        <TextView
+            android:id="@+id/tv_mintemp_forecastitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            tools:text="50 °C"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
